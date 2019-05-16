@@ -3,7 +3,7 @@
 Daniel Brown*, Wonjoon Goo*, Prabhat Nagarajan, and Scott Niekum. (* Equal Contribution)
 
 <p align=center>
-  <img src='assets/figure.png'>
+  <img src='assets/figure.png' width=600>
 </p>
 
 <p align="center">
