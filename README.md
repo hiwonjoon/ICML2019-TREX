@@ -14,7 +14,7 @@ Daniel Brown*, Wonjoon Goo*, Prabhat Nagarajan, and Scott Niekum. (* Equal Contr
 
 This repository contains a code used to conduct experiments reported in the paper.
 
-If you find this repository is useful in your research, please consider to cite the paper:
+If you find this repository is useful in your research, please cite the paper:
 ```
 @InProceedings{pmlr-v97-brown19a,
   title = {Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations},
