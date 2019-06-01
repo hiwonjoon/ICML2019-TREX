@@ -54,7 +54,7 @@ For Enduro run
 The visualization script is VisualizeAtariLearnedReward.py
 
 To generate plots run:
-```python VisualizeAtariLearnedReward.py --env_name pong --models_dir . --reward_net_path ./learned_models/icml_learned_rewards/breakout_progress_masking.params --save_fig_dir ./viz```
+```python VisualizeAtariLearnedReward.py --env_name breakout --models_dir . --reward_net_path ./learned_models/icml_learned_rewards/breakout_progress_masking.params --save_fig_dir ./viz```
 
 ## RL on learned reward function ##
 
