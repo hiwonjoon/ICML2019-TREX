@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: baselines
+Version: 0.1.5
+Summary: OpenAI baselines: high quality implementations of reinforcement learning algorithms
+Home-page: https://github.com/openai/baselines
+Author: OpenAI
+Author-email: gym@openai.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: all
+Provides-Extra: test
+Provides-Extra: bullet
+Provides-Extra: mpi
