@@ -70,9 +70,15 @@ pip install -e .
 Then you can run RL as follows:
 
 ```
-OPENAI_LOG_FORMAT='stdout,log,csv,tensorboard' OPENAI_LOGDIR=[your_log_dir_here] python -m baselines.run --alg=ppo2 --env=AtariEnvNoFrameskip-v4 --custom_reward pytorch --custom_reward_path [path_to_learned_reward_model] --seed 0 --num_timesteps=5e7  --save_interval=500 --num_env 9
+OPENAI_LOG_FORMAT='stdout,log,csv,tensorboard' OPENAI_LOGDIR=[your_log_dir_here] python -m baselines.run --alg=ppo2 --env=[Atari env here] --custom_reward pytorch --custom_reward_path [path_to_learned_reward_model] --seed 0 --num_timesteps=5e7  --save_interval=500 --num_env 9
 ```
 
+
+For example
+
+```
+OPENAI_LOG_FORMAT='stdout,log,csv,tensorboard' OPENAI_LOGDIR=/home/tflogs python -m baselines.run --alg=ppo2 --env=BreakoutNoFrameskip-v4 --custom_reward pytorch --custom_reward_path learned_models/breakout.params --seed 0 --num_timesteps=5e7  --save_interval=500 --num_env 9
+```
 
 Masking is done here:
 baselines/baselines/common/trex_utils.py 
