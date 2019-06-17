@@ -7,7 +7,7 @@
 pip install -r requirements.txt
 ```
 
-- unzip the policies used for learning and evaluation.
+- unzip the checkpointed policies ([download here](https://github.com/dsbrown1331/learning-rewards-of-learners/releases/download/mujoco/mujoco_models.tar.gz)) used for learning and evaluation.
 ```
 cd learner/demo_models
 tar xzvf mujoco_models.tar.gz
