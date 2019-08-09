@@ -18,7 +18,9 @@ Here's an example of how to run it.
 
 To learn reward for enduro run
 
+```
 python LearnAtariReward.py --env_name enduro --reward_model_path ./learned_models/enduro_test.params --models_dir . --num_trajs 2000 --num_snippets 0
+```
 
 ## Atari Grand Challenge demos ##
 
