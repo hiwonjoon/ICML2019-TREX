@@ -18,7 +18,7 @@ If you find this repository is useful in your research, please cite the paper:
 ```
 @InProceedings{pmlr-v97-brown19a,
   title = {Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations},
-  author = {Brown, Daniel and Goo, Wonjoon and Nagarajan, Prabhat and Niekum, Scott},
+  author = {Brown, Daniel S. and Goo, Wonjoon and Nagarajan, Prabhat and Niekum, Scott},
   booktitle = {Proceedings of the 36th International Conference on Machine Learning},
   pages = {783--792},
   year = {2019},
