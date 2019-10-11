@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+# T-REX Project Page
 
 # Abstract
 
