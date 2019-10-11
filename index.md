@@ -46,7 +46,7 @@ Our formulation has several benefits: (1) it does not require any MDP solving or
 
 We show in our Section 5.3.1 of our [T-REX paper](https://arxiv.org/pdf/1904.06387.pdf) that T-REX can learn the intent of a learner that improves at a task over time. In this case rankings are extracted automatically from the time series of trajectory rollouts peformed by the learner.
 
-We also have a follow-on paper where we introduce [D-REX](https://dsbrown1331.github.io/CoRL2019-DREX/) a pure imitation learning approach for T-REX that can extrapolate beyond the performance of unlabeled demonstrations without needing preference labels, active feedback, or access to a ground-truth reward!
+We also have a follow-on paper where we introduce [D-REX](https://dsbrown1331.github.io/CoRL2019-DREX/). D-REX is a pure imitation learning approach for T-REX that can extrapolate beyond the performance of unlabeled demonstrations without needing preference labels, active feedback, or access to a ground-truth reward!
 
 # Experimental Results
 
