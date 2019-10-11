@@ -42,6 +42,12 @@ Then, we train a policy with an ordinary reinforcement learning algorithm on the
 
 Our formulation has several benefits: (1) it does not require any MDP solving or inference-time data collection, (2) it works well even without action labels, (3) works well with small numbers of demonstrations, and (4) it even scales well with high-dimensional tasks.
 
+> What if you don't have ranked demonstrations?
+
+We show in our Section 5.3.1 of our [T-REX paper](https://arxiv.org/pdf/1904.06387.pdf) that T-REX can learn the intent of a learner that improves at a task over time. In this case rankings are extracted automatically from the time series of trajectory rollouts peformed by the learner.
+
+We also have a follow-on paper where we introduce [D-REX](https://dsbrown1331.github.io/CoRL2019-DREX/) a pure imitation learning approach for T-REX that can extrapolate beyond the performance of unlabeled demonstrations without needing preference labels, active feedback, or access to a ground-truth reward!
+
 # Experimental Results
 
 We conducted experiments with Mujoco locomotion tasks and Atari tasks. For the comprehensive details and results of our experiments, please refer the original paper or the provided code.
@@ -146,3 +152,7 @@ We further tested our algorithm in the most realistic setting in which the ranki
   <img src='assets/paper/noise-anal-atari.png' width='85%'/>
   <p style='margin-top:1px'> Figure 6 - Evaluation of T-REX on human rankings collected using Amazon Mechanical Turk. Results are the best average performance over 3 random seeds with 30 trials per seed. </p>
 </div>
+
+## Disturbance-based Reward Extrapolation
+
+If you like the idea of T-REX, we encourage you to check out our extension of T-REX that we call [D-REX](https://dsbrown1331.github.io/CoRL2019-DREX/). D-REX uses noise injection to automatically create rankings. This lets us use T-REX in the standard imitation learning setting, where demonstrations are not ranked or labeled according to preference.
