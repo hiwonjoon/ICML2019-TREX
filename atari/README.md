@@ -1,7 +1,9 @@
 # Atari Experiments #
 
 
-This directory contains code and learned reward functions for "Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations". ICML 2019.
+This directory contains PyTorch code and learned reward functions for "Extrapolating Beyond Suboptimal Demonstrations via Inverse Reinforcement Learning from Observations". ICML 2019. 
+
+If you prefer TensorFlow over PyTorch, see https://github.com/msinto93/T-REX-IRL for a good implementation.
 
 
 ## T-REX reward learning for Atari ##
